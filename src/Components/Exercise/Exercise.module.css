@@ -1,0 +1,167 @@
+.exercise {
+    position: relative;
+    margin-bottom: 80px;
+}
+.time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 231px;
+    left: 319px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.img {
+    border-radius: 10px;
+    position: relative;
+}
+.img::after {
+    content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 80%, #000000 100%)
+}
+.name {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 45px;
+    top: 182px;
+    left: 20px;
+}
+.calories {
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  
+   .name {
+    font-size: 37px;
+    top: 172px;
+   }
+   .time {
+    font-size: 18px;
+    left: 295px;
+    top: 214px;
+   }
+    .img {
+        width: 345px;
+    }
+    .calories {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:1100px) {
+    .img {
+        width: 475px;
+    }
+    .time {
+        font-size: 18px;
+        left: 425px;
+        top: 302px;
+       }
+       .name {
+        font-size: 40px;
+        top: 252px;
+       }
+}
+
+@media (max-width:1000px) {
+    .img {
+        width: 375px;
+    }
+    .time {
+        font-size: 18px;
+        left: 325px;
+        top: 236px;
+       }
+       .name {
+        font-size: 40px;
+        top: 192px;
+       }
+}
+
+@media (max-width:800px) {
+    .img {
+        width: 295px;
+    }
+    .time {
+        font-size: 18px;
+        left: 248px;
+        top: 180px;
+       }
+       .name {
+        font-size: 33px;
+        top: 142px;
+       }
+}
+
+@media (max-width: 650px) {
+    .img {
+        width: 500px;
+    }
+    .time {
+        font-size: 18px;
+        left: 452px;
+        top: 320px;
+       }
+       .name {
+        font-size: 42px;
+        top: 270px;
+       }
+}
+
+
+@media (max-width: 530px) {
+    .img {
+        width: 400px;
+    }
+    .time {
+        font-size: 18px;
+        left: 352px;
+        top: 280px;
+       }
+       .name {
+        font-size: 32px;
+        top: 200px;
+       }
+       .popular {
+        font-size: 30px;
+       }
+}
+
+@media (max-width: 430px) {
+    .img {
+        width: 300px;
+    }
+    .time {
+        font-size: 18px;
+        left: 252px;
+        top: 190px;
+       }
+       .name {
+        top: 140px;
+        font-size: 28px;
+       }
+}
+
+
+@media (max-width: 400px) {
+  
+    .popular {
+        font-size: 28px;
+       }
+}

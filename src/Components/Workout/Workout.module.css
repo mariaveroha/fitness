@@ -1,0 +1,345 @@
+.workout {
+    position: relative;
+    padding-bottom: 150px;
+}
+
+.title {
+    position: relative;
+    color: white;
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 120px;
+    max-width: 523px;
+    z-index: 10;
+    margin-bottom: 130px;
+    margin-top: 100px;
+}
+
+.banner {
+    display: flex;
+}
+
+.paint {
+    position: absolute;
+    z-index: 8;
+    top: 477px;
+}
+
+.grey {
+    position: absolute;
+    background-color: #111111;
+    width: 1030px;
+    height: 733px;
+    right: 0;
+    top: 0;
+    left: 324px
+}
+
+.start {
+    padding: 24px 43px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 10px;
+    margin-bottom: 143px;
+    background-color: #25AB75;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 130px; 
+    width: 558px;
+}
+.jhonathan, .text, .start {
+    margin-left: 20.750vw;
+}
+.nameJ, .trainJ {
+    margin-left: 341px;
+}
+.samantha {
+    margin-top: 24px;
+    margin-left: 3px;
+}
+
+.karen {
+ margin-left: 326px;
+ margin-top: 345px;
+}
+
+.name, .nameK, .nameJ {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top: 12px;
+    color: white;
+}
+.train, .trainK, .trainJ {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+    margin-top: 5px;
+}
+.nameK, .trainK {
+    margin-left: 326px;
+}
+.trainer {
+    width: 321px;
+    position: absolute;
+}
+
+
+@media (max-width: 1507px) {
+
+    .grey {
+        width: 850px;
+    }
+    .karen {
+        margin-left: 306px;
+    margin-top: 385px;
+    }
+}
+
+
+@media (max-width: 1250px) {
+
+  .title {
+    font-size: 70px;
+    max-width: 620px;
+  }
+  .paint {
+    top: 305px;
+  }
+    .karen {
+        margin-left: 306px;
+    margin-top: 385px;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .grey {
+        width: 650px;
+        left: 536px;
+    }
+    .karen {
+        margin-left: 306px;
+    margin-top: 385px;
+    }
+    .title, .paint {
+        margin-left: 5vw;
+    }
+    .paint {
+        top: 345;
+    }
+    .text, .start, .jhonathan {
+        margin-left: 100px;
+    }
+    .jhonathan {
+        width: 510px;
+    }
+    .nameK, .trainK, .karen {
+        margin-left: 390px;
+    }
+    .karen {
+        margin-top: 455px;
+    }
+    .trainer {
+        margin-left: 5vw;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1187px) {
+
+.grey {
+    width: 550px;
+    left: 485px;
+}
+.jhonathan {
+    margin-left: 20px;
+}
+.text {
+    width: 358px;
+font-size: 20px;
+}
+.karen {
+    margin-top: 515px;
+}
+}
+
+@media (max-width: 1041px) {
+.grey {
+    left: 385px;
+    width: 500px;
+}
+.title {
+    margin-left: 2vw;
+    font-size: 50px;
+    max-width: 350px;
+}
+.paint {
+    width: 40vw;
+    top: 370px;
+}
+}
+
+
+@media (max-width: 930px) {
+    .grey {
+        left: 320px;
+        width: 500px;
+    }
+ .samantha {
+    margin-top: 399px;
+ }
+ .karen {
+    margin-top: 815px;
+ }
+ .nameJ, .trainJ {
+    margin-left: 80px;
+ }
+}
+
+@media (max-width: 850px) {
+  
+  .grey {
+    width: 474px;
+    left: 319px;
+  }
+
+  .title {
+    font-size: 80px;
+  }
+  .workout {
+    margin-left: 20px;
+  }
+  .paint {
+    top: 457px;
+  }
+  .text, .start, .jhonathan {
+    font-size: 15px;
+    width: 300px;
+    margin-left: 80px;
+  }
+  .jhonathan  {
+    margin-left: 0;
+    width: 450px;
+  }
+  .nameJ, .trainJ {
+    margin-left: 81px;
+  }
+  .trainer {
+    margin-left: 0;
+  }
+  .samantha {
+    margin-top: 234px;
+  }
+  .karen {
+    margin-top: 495px;
+  }
+}
+
+
+@media (max-width: 810px) {
+    .banner {
+        display: block;
+    }
+    .grey {
+        background-color: transparent;
+        left: 0;
+        position: static;
+        max-height: 673px;
+        width: 80vw;
+    }
+    .workout {
+        margin-left: 40px;
+    }
+    .paint {
+        top: 347px;
+    }
+    .text {
+        width: 600px;
+        font-size: 20px ;
+    }
+    .samantha {
+        margin-top: 150px;
+        width: 490px;
+      }
+      .karen {
+        margin-top: 0;
+        width: 490px;
+      }
+      .jhonathan {
+        width: 490px;
+      }
+      .trainJ , .start {
+        margin-bottom: 45px ;
+      }
+      .trainer {
+        position: static;
+        margin-top: 0;
+      }
+      .nameK, .trainK , .karen,  .start, .text, .nameJ, .trainJ {
+        margin-left: 0;
+      }
+}
+
+@media (max-width: 650px) {
+    .text {
+        width: 400px;
+    }
+.title {
+    font-size: 50px;
+    line-height: 80px;
+}
+.paint {
+    top: 67px;
+}
+.samantha {
+    margin-top: 240px;
+}
+.workout {
+    padding-bottom: 35px;
+}
+}
+
+
+@media (max-width: 557px) {
+    .text {
+        width: 330px;
+        margin-top: 50px;
+    }
+.title {
+    font-size: 38px;
+    width: 60vw;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+.paint {
+    top: 99px;
+    width: 60vw;
+}
+.samantha {
+    margin-top: 240px;
+}
+
+.workout {
+    margin-left: 30px;
+}
+.karen, .samantha, .jhonathan {
+    width: 299px;
+}
+.samantha {
+    margin-top: 70px;
+}
+}

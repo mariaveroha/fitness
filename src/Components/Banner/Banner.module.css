@@ -1,0 +1,273 @@
+.buttonWorkout {
+    background-color: #111111;
+    border: none;
+    border-radius: 200px;
+    padding: 0.417vw;
+}
+
+.new {
+    color: white;
+    background-color: #25AB75;
+    border-radius: 200px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+    padding: 0.333vw 0.813vw;
+}
+
+.buttonText {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    padding: 0.750vw 1.250vw;
+}
+
+.bannerImage {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1000;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 170px;
+    color: white;
+    margin-top: 31px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: white;
+    opacity: 0.5;
+    margin-top: 42px;
+    margin-bottom: 50px;
+    max-width: 40vw;
+}
+
+.girl {
+    position: absolute;
+    max-width: 50vw;
+    height: 1170px;
+    margin-left: 38.250vw;
+    top: 0;
+    z-index: 0;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+    top: 335px;
+    right: 8vw;
+}
+
+.time,
+.calories {
+    background-color: #111111;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+    padding: 1.267vw 2.200vw;
+}
+
+.time {
+    margin-bottom: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeNumber,
+.caloriesNumber {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.timeNumber {
+    color: #FFE642;
+}
+
+.caloriesNumber {
+    color: #FB1351;
+}
+
+.smallText {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: white;
+}
+
+.start,
+.preview {
+    padding: 1.4vw 3.083vw;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 10px;
+    margin-bottom: 190px;
+}
+
+.start {
+    background-color: #25AB75;
+    margin-right: 2.200vw;
+}
+
+.preview {
+    background-color: #111111;
+}
+
+@media (max-width: 1395px) {
+    .title {
+        font-size: 150px;
+        width: 800px;
+    }
+
+    .girl {
+        margin-left: 46.25vw;
+        max-width: 46vw;
+    }
+
+    .banner {
+        margin-left: 70px;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .title {
+        font-size: 100px;
+        width: 500px;
+        line-height: 120px;
+    }
+
+    .girl {
+        height: 1050px;
+    }
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 90px;
+    }
+
+    .timeNumber,
+    .caloriesNumber {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 65px;
+        width: 420px;
+        line-height: 70px;
+    }
+
+    .timeNumber,
+    .caloriesNumber {
+        font-size: 28px;
+    }
+
+    .banner {
+        margin-left: 56px;
+    }
+
+    .buttons {
+        top: 235px
+    }
+
+    .girl {
+        height: 950px;
+    }
+}
+
+@media (max-width: 600px) {
+   .girl {
+    display: none;
+   }
+   .buttons {
+    top: 390px
+}
+.title {
+    font-size: 60px;
+   width: 100%;
+    line-height: 70px;
+}
+.banner {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.subtitle {
+    max-width: 60vw;
+}
+}
+
+
+
+@media (max-width: 550px) {
+    .start, .preview {
+        margin-bottom: 110px;
+    }
+}
+
+
+
+
+@media (max-width: 440px) {
+    .timeNumber,
+    .caloriesNumber {
+        font-size: 18px;
+    }
+    .smallText {
+        font-size: 10px;
+    }
+    .title {
+        font-size: 48px;
+    }
+    .time, .calories {
+        padding: 1.767vw 2.6vw
+    }
+    .buttons {
+        flex-direction: row;
+        position: static;
+        top: 0;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .time {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .subtitle {
+        width: 100vw;
+    }
+ }
+ 
+
+
+@media (max-width: 400px) {
+  .buttons {
+    top: 380px;
+  }
+  .start, .preview {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 45px;
+  }
+ }
+ 
