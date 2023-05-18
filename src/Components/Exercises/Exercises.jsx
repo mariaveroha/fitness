@@ -20,7 +20,7 @@ const Exercises = () => {
         <div className={s.exercises}>
             <div className={s.title}>
                 <span className={s.popular}>Popular Exercises</span>
-                <span className={s.more}>SEE MORE EXERCISES</span>
+                <button className={s.more}>SEE MORE EXERCISES</button>
             </div>
             <div className={s.block}>
                 {exercise.map((exercises, key) =>

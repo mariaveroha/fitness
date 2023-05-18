@@ -19,9 +19,12 @@
 }
 .more {
     font-weight: 400;
+    background-color: transparent;
+    border: none;
     font-size: 12px;
     line-height: 12px;
     color: white;
+    cursor: pointer;
 }
 
 .block {

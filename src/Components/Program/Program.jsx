@@ -9,7 +9,7 @@ const Program = (props) => {
                 <p className={s.name}>{props.program.name}</p>
                 <p className={s.video}>{props.program.video}</p>
             </div>
-            <p className={s.r}>&rarr;</p>
+            <button className={s.r}>&rarr;</button>
            
         </div>
     )

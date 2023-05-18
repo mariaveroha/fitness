@@ -119,6 +119,7 @@
     line-height: 22px;
     border-radius: 10px;
     margin-bottom: 190px;
+    cursor: pointer;
 }
 
 .start {

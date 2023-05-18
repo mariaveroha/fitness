@@ -37,6 +37,9 @@
     right: 13.333vw;
     font-size: 50px;
     font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 .block {

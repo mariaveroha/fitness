@@ -1,6 +1,7 @@
 .exercise {
     position: relative;
     margin-bottom: 80px;
+    cursor: pointer;
 }
 .time {
     background-color: black;
