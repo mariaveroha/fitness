@@ -198,10 +198,10 @@
 
 @media (max-width: 600px) {
    .girl {
-    display: none;
+   height: 930px;
    }
    .buttons {
-    top: 390px
+    top: 350px
 }
 .title {
     font-size: 60px;
@@ -215,6 +215,9 @@
 .subtitle {
     max-width: 60vw;
 }
+.bannerImage {
+    margin-top: 35px;
+}
 }
 
 
@@ -226,6 +229,15 @@
 }
 
 
+@media (max-width: 500px) {
+   .girl {
+    height: 1000px;
+   }
+.preview {
+    position: absolute;
+    z-index: 100;
+}
+}
 
 
 @media (max-width: 440px) {
@@ -256,6 +268,14 @@
     .subtitle {
         width: 100vw;
     }
+    .girl {
+        height:50vh;
+        top: 250px;
+        margin-left: 54vw;
+    }
+    .bannerImage {
+        margin-top: 0;
+    }
  }
  
 
@@ -270,5 +290,9 @@
   .title {
     font-size: 45px;
   }
+  .girl {
+    top: 300px;
+    margin-top: 50px;
+}
  }
  
